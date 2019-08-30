@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1567182229 source:c:\users\pedro\documents\c\projetos em c\ufg\exercicio16\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1567182989 source:c:\ufg\exercicio16\main.c
+	<stdio.h>
+	<stdlib.h>
+
