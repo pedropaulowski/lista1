@@ -6,7 +6,6 @@ int main() {
     float media;
 
 
-    printf("Insira as 3 notas separadas por espaço, se for nota quebrada, use ponto no lugar da vírgula. \n");
     scanf("%f %f %f", &nota1,&nota2,&nota3);
 
     media = (nota1 + nota2 + nota3) / 3;

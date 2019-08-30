@@ -9,13 +9,17 @@ int main() {
 
     resto = n1%2;
     vezes = n2;
+
     if(resto == 0) {
         for (vezes = n2; vezes > 1; vezes --) {
             n1 += 2;
             printf("%d ", n1);
+
         }
+        printf("\n");
+
     } else {
-        printf("O PRIMEIRO NUMERO NAO E PAR.\n");
+        printf("O PRIMEIRO NUMERO NAO E PAR\n");
     }
 
     return 0;
