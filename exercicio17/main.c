@@ -2,24 +2,31 @@
 
 //exercicio 17
 int main() {
-    int n1, n2, vezes;
+    int x, y, vezes;
     float resto;
 
-    scanf("%d %d", &n1, &n2);
+    scanf("%d %d", &x, &y);
+    printf("\n");
 
-    resto = n1%2;
-    vezes = n2;
+    resto = x%2;
+    vezes = y;
 
     if(resto == 0) {
-        for (vezes = n2; vezes > 1; vezes --) {
-            n1 += 2;
-            printf("%d ", n1);
+
+        printf("%d ", x);
+
+        for (vezes = y; vezes > 1; vezes --) {
+            x += 2;
+            printf("%d ", x);
 
         }
+
         printf("\n");
 
     } else {
-        printf("O PRIMEIRO NUMERO NAO E PAR\n");
+
+        printf("O PRIMEIRO NUMERO NAO E PAR.\n");
+
     }
 
     return 0;
